@@ -1,5 +1,5 @@
 {
-    "name": "kategray/auth",
+    "name": "kategray/authbundle",
     "type": "library",
     "description": "Authentication Bundle for Symfony 2 and 3",
     "keywords": ["auth", "cas"],
