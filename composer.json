@@ -17,5 +17,8 @@
     "autoload": {
         "psr-0": { "KateGray\\Auth": "" }
     },
-    "target-dir": "kategray/auth"
+    "target-dir": "kategray/auth",
+    "require-dev": {
+        "sllh/php-cs-fixer-styleci-bridge": "^2.1"
+    }
 }

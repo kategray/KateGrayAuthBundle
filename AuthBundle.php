@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the AuthBundle package.
  *
@@ -15,6 +16,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * @author Kate Gray <opensource@codebykate.com>
  */
-class AuthBundle extends Bundle {
-
+class AuthBundle extends Bundle
+{
 }
