@@ -1,0 +1,21 @@
+{
+    "name": "kategray/auth",
+    "type": "library",
+    "description": "Authentication Bundle for Symfony 2 and 3",
+    "keywords": ["auth", "cas"],
+    "homepage": "https://github.com/kategray/KateGrayAuthBundle",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Kate Gray",
+            "email": "opensource@codebykate.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "KateGray\\Auth": "" }
+    },
+    "target-dir": "kategray/auth"
+}
