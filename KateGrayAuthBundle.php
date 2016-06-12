@@ -16,6 +16,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * @author Kate Gray <opensource@codebykate.com>
  */
-class AuthBundle extends Bundle
+class KateGrayAuthBundle extends Bundle
 {
 }

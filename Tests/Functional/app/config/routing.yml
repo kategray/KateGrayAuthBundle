@@ -1,0 +1,2 @@
+kate_gray_auth_cas:
+    resource: "@KateGrayAuthBundle/Resources/config/routing/cas.xml"

@@ -4,3 +4,5 @@ composer.lock
 composer.phar
 .php_cs.cache
 coverage.clover
+
+Tests/Functional/app/cache/

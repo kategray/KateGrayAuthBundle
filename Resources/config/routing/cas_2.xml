@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- CAS 2.0 Routes -->
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="kate_gray_auth_service_validate" path="/serviceValidate" methods="GET POST">
+        <default key="_controller">KateGrayAuthBundle:CAS2:Login</default>
+    </route>
+
+    <route id="kate_gray_auth_proxy_validate" path="/proxyValidate" methods="GET POST">
+        <default key="_controller">KateGrayAuthBundle:CAS2:Logout</default>
+    </route>
+
+    <route id="kate_gray_auth_proxy" path="/proxy" methods="GET POST">
+        <default key="_controller">KateGrayAuthBundle:CAS2:Validate</default>
+    </route>
+
+</routes>

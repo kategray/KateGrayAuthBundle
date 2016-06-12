@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- CAS 3.0 Routes -->
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="kate_gray_auth_cas3_service_validate" path="/serviceValidate" methods="GET POST">
+        <default key="_controller">KateGrayAuthBundle:CAS3:ServiceValidate</default>
+    </route>
+
+    <route id="kate_gray_auth_cas3_proxy_validate" path="/proxyValidate" methods="GET POST">
+        <default key="_controller">KateGrayAuthBundle:CAS3:ProxyValidate</default>
+    </route>
+
+</routes>
