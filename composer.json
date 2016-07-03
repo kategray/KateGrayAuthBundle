@@ -25,7 +25,7 @@
         "symfony/web-profiler-bundle":    "^2.7|^3.0"
     },
     "autoload": {
-        "psr-0": { "KateGray\\Auth": "" }
+        "psr-4": { "KateGray\\AuthBundle\\": "" }
     },
     "target-dir": "kategray/auth"
 }
