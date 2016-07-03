@@ -4,7 +4,7 @@
     "description": "Authentication Bundle for Symfony 2 and 3",
     "keywords": ["auth", "cas"],
     "homepage": "https://github.com/kategray/KateGrayAuthBundle",
-    "license": "GPL",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "Kate Gray",
@@ -26,6 +26,5 @@
     },
     "autoload": {
         "psr-4": { "KateGray\\AuthBundle\\": "" }
-    },
-    "target-dir": "kategray/auth"
+    }
 }
